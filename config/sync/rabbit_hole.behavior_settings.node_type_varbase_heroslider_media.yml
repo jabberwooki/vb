@@ -1,0 +1,11 @@
+uuid: 948c849f-601f-4245-b6bb-7cc899cf6e30
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wBQ1_ruYiOkpaCc2wGJ2NN-dsNdeY8P859nIbOuwRUo
+id: node_type_varbase_heroslider_media
+action: access_denied
+allow_override: 0
+redirect: ''
+redirect_code: 301

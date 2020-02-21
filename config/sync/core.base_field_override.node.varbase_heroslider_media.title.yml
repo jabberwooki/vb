@@ -1,0 +1,20 @@
+uuid: 4333907a-c3ad-452d-9835-246fc1244edb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.varbase_heroslider_media
+_core:
+  default_config_hash: eIBhSCP_mRIpDQXST80Lh6bJw12SFHmb7tUJqqtoLLo
+id: node.varbase_heroslider_media.title
+field_name: title
+entity_type: node
+bundle: varbase_heroslider_media
+label: 'Slide title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

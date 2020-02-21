@@ -1,0 +1,20 @@
+uuid: a621b974-a481-4e44-8267-e36453cf1dc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: fn-Pi4LjnhEZn5eG8NtRERfDj0bvEPSGM4bhFRugKt8
+name: 'Landing page'
+type: landing_page
+description: 'Use <em>Landing pages</em> to build multi-component pages with custom layouts to display content in a modern way.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

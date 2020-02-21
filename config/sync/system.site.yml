@@ -1,0 +1,14 @@
+uuid: c9bd5f31-b9b5-499e-a0b7-9ad0f3a9b26d
+name: 'Réserves Naturelles Catalanes'
+mail: christophe.espiau@korora.fr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,37 @@
+uuid: 9cf7241a-b775-4321-9414-176efff2f3e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.editor
+    - field.field.media.remote_video.field_media_cover_image
+    - field.field.media.remote_video.field_media_in_library
+    - field.field.media.remote_video.field_media_oembed_video
+    - media.type.remote_video
+  module:
+    - media
+_core:
+  default_config_hash: UXthQv632W6jwQQGDjBqveN8Tj57fUcMkFw9mu_zkzs
+id: media.remote_video.editor
+targetEntityType: media
+bundle: remote_video
+mode: editor
+content:
+  field_media_oembed_video:
+    type: oembed_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_media_cover_image: true
+  field_media_in_library: true
+  langcode: true
+  name: true
+  path: true
+  preview: true
+  status: true
+  uid: true

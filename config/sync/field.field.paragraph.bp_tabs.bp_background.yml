@@ -1,0 +1,23 @@
+uuid: 6c6627c8-d8cd-4ab0-b6dc-0c2ec836780f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_background
+    - paragraphs.paragraphs_type.bp_tabs
+  module:
+    - options
+_core:
+  default_config_hash: 7X7mPvje85CtmfCHtytl04KL1HbuRDZbb-L4XecTTWU
+id: paragraph.bp_tabs.bp_background
+field_name: bp_background
+entity_type: paragraph
+bundle: bp_tabs
+label: 'Background color'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

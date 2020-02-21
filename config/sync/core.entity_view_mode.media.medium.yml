@@ -1,0 +1,12 @@
+uuid: ab8c47ea-1fd0-4a36-bd18-d59a3ba65aae
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: sZ8qjZTgnBHewJM4YLHSQUiWo4rpA0MiUyPh5bOQAwk
+id: media.medium
+label: 'Medium (1/2 of width)'
+targetEntityType: media
+cache: true
