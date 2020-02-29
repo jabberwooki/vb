@@ -751,20 +751,10 @@ $settings['entity_update_backup'] = TRUE;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
-$databases['default']['default'] = array (
-  'database' => 'rnc',
-  'username' => 'rnc',
-  'password' => 'rnc',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
 
 // Config d'origine, après install de la distrib
 //$settings['config_sync_directory'] = 'sites/default/files/config_gUqfl-6euUj1RcEAk00pgCQ8aLhaMtaApUSYk1QBgwGBPVZtwfz_e1BhsjPAUe2vyEA-2mcioQ/sync';
